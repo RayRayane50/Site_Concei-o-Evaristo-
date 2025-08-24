@@ -44,34 +44,37 @@ body {
       padding-left: 100px;
       padding-right: 100px;
       max-width: 1200px;
-      margin: 0px;
     }
 
     .card {
       color: #2c2b2e;
-      /*margin-top: 50px;*/
       padding: 20px;
       border-radius: 20px;
-      /*margin-bottom: 10px;*/
     }
 
     .card1{
         background-color: #f7d981e7;
         margin-top: 50px;
-
+        padding: 30px;
+        text-align: justify;
     }
 
     .bio {
         display: grid;
-        grid-template-columns: auto auto auto;
+        grid-template-columns: auto auto;
+        align-items: center;
     }
 
-    imag5 {
+    .img5 {
+        position: static;
         margin-top: 20px;
-        padding-top: 30px;
+        padding: 30px;
     }
+
     .card2{
         background-color: #f5d986e7;
+        padding: 30px;
+        text-align: justify;
     }
 
     .card3{
@@ -80,12 +83,100 @@ body {
 
     .card4{
         background-color: #dcca93e7;
+        padding: 30px;
+        text-align: justify;
     }
 
     .card5{
         background-color: #e9cd7be7;
+        padding: 30px;
+        text-align: justify;
     }
 
+    .p {
+        text-indent: 30px;
+        text-align: justify;
+    }
+
+    .capa {
+        text-align: center;
+    }
+
+    .capa1 {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        align-items: center;
+    }
+
+    .img6 {
+        
+        margin-top: 20px;
+        padding: 10px;
+    }
+
+    .p10 {
+        padding: 10px;
+        position: center;
+        text-indent: 20px;
+        justify-content: center;
+    }
+
+    .capa2 {
+        display: grid;
+        grid-template-columns: 55% 45%;
+        align-items: center;
+    }
+
+    .img7 {
+        
+        margin-top: 20px;
+        margin-left: 30px;
+        padding: 10px;
+    }
+
+    .p11 {
+        padding: 20px;
+        text-indent: 20px;
+        justify-content: center;
+    }
+
+    .capa3 {
+        display: grid;
+        grid-template-columns: auto auto;
+        align-items: center;
+    }
+
+    .img8 {
+        margin-top: 20px;
+        margin-left: 10px;
+        padding: 10px;
+    }
+
+    .p12 {
+        padding: 10px;
+        margin-left: 20px;
+        text-indent: 20px;
+        justify-content: center;
+    }
+
+    .capa4 {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        align-items: center;
+    }
+
+    .img9 {
+        margin-top: 20px;
+        padding: 10px;
+    }
+
+    .p13 {
+        padding: 10px;
+        text-indent: 20px;
+        position: center;
+        justify-content: center;
+    }
+    
     .card6{
         background-color: #e9cd7be7;
     }
@@ -104,4 +195,3 @@ body {
       margin: 20px auto;
       display: block;
     }
-
